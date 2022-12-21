@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b650e95524.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="new.css">
+    <title>TRAIN YOUR MUSCLE</title>
+</head>
+
+<body>
+    <section class="showcase ">
+        <header>
+            <div class="logo"><img src="logo.png" alt=""></div>
+            <div class="toggle "></div>
+        </header>
+        <video src="gym.mp4" muted loop autoplay>
+        </video>
+        <div class="overlay"></div>
+        <div class="text">
+
+            <h1>NOTHING IS IMPOSSIBLE <br>
+                NO PAIN NO GAIN</h1>
+            <p>“You were born to win, but to be a winner
+                you must plan to win, prepare to win, and expect to win.”</p>
+            <a href="#">Sign up</a>
+        </div>
+        <ul class="social">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+
+        </ul>
+
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a class="full" href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Schedules</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+
+    <div class="features">
+        <div class="container">
+            <div class="feathead">
+                <h1>CHOSSE PROGRAM</h1>
+            </div>
+            <div class="featcol">
+                <div class="col">
+                    <div class="srv">
+                        <i class="fas fa-dumbbell"></i>
+                        <h1>Basic Fitness</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet. Sapiente placeat, fuga,
+                            quibusdam totam te</p>
+                    </div>
+                    <div class="srv">
+                        <i class="fas fa-dumbbell"></i>
+                        <h1>New Gym Training</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet. Sapiente placeat, fuga,
+                            quibusdam totam te</p>
+                    </div>
+                    <div class="srv">
+                        <i class="fas fa-dumbbell"></i>
+                        <h1>Basic Muscle Course</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet. Sapiente placeat, fuga,
+                            quibusdam totam te</p>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="srv">
+                        <i class="fas fa-dumbbell"></i>
+                        <h1>Advanced Muscle Course</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet. Sapiente placeat, fuga,
+                            quibusdam totam te</p>
+                    </div>
+                    <div class="srv">
+                        <i class="fas fa-dumbbell"></i>
+                        <h1>Yoga Training</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet. Sapiente placeat, fuga,
+                            quibusdam totam te</p>
+                    </div>
+                    <div class="srv">
+                        <i class="fas fa-dumbbell"></i>
+                        <h1>Body Building Course</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eveniet. Sapiente placeat, fuga,
+                            quibusdam totam te</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
